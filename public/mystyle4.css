@@ -1,0 +1,57 @@
+body {
+    background-image: url("sea4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: brightness(0.7);
+}
+
+
+.head {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.content {
+    display: flex;
+}
+
+.content .con1 {
+    text-align: center;
+    color: white;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a:link {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: red;
+}
+
+.button {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding-right: 20px;
+}

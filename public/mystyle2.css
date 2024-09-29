@@ -1,0 +1,66 @@
+body {
+    background-image: url("sea4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: brightness(0.7);
+}
+
+.thai {
+    font-family: 'Kanit', 'sans-serif';
+}
+
+.head {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.profile {
+    text-align: center;
+}
+
+.thai .content {
+    text-align: center;
+}
+
+.thai .content2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.thai .content2 .con1 {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+.thai .content6 {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+a:link {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: red;
+}
+
+.button {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding-right: 20px;
+}

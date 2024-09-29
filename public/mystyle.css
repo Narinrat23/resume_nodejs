@@ -1,0 +1,48 @@
+body {
+    background-image: url("sea5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: brightness(0.7);
+}
+
+.marquee {
+    font-size: 20px;
+    color: white;
+}
+
+.h2 {
+    font-size: 20px;
+    color: black;
+}
+
+.head {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.home {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+}
+
+.home .content {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #007BFF;
+}
+
+.material-icons {
+    color: black;
+}

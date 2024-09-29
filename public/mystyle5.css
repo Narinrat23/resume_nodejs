@@ -1,0 +1,106 @@
+body {
+    background-image: url("sea4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: brightness(0.7);
+}
+
+.thai {
+    font-family: 'Kanit', 'sans-serif';
+}
+
+
+.head {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.thai .head2 {
+    font-size: 20px;
+}
+
+.thai .profile {
+    text-align: center;
+}
+
+.thai .content {
+    text-align: center;
+}
+
+.thai .content2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.thai .content2 .con1 {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+}
+
+.thai .content3 {
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+}
+
+
+.thai .content9 {
+    margin-left: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.thai .content9 .con3 {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+}
+
+.thai .video-con {
+    position: relative;
+    padding-bottom: 30%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.thai .video-con video {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+a:link {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: red;
+}
+
+.button {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
